@@ -1,0 +1,47 @@
+.articles{
+    text-align: left;
+}
+
+.page-body{
+    background-color: #364859;
+    color: white;
+    display: inline-block;
+
+}
+
+.root{
+    text-align: center;
+}
+
+body{
+    background-color: #364859 ;
+    color: white ;
+    text-align: center;
+}
+
+ nav{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+} 
+
+#filter{
+    width: max-content;
+}
+
+.allign-middle{
+    text-align: center;
+}
+
+a{
+    padding-right: 5px;
+}
+li::marker{
+    display: none !important;
+}
+
+.paragraph-text{
+    background-color: #343a40;
+    margin: auto;
+    width: 50%;
+}

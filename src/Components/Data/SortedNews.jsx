@@ -1,5 +1,5 @@
 import React from 'react';
-import RenderStories from './RenderStories';
+import RenderStories from '../shared/RenderStories';
 
 const SortedNews = (props) => {
 

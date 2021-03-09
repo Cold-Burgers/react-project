@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect } from 'react';
-import NewStories from './Data/NewStories.json';
-import Header from './shared/Header';
-import SortedNews from './SortedNews';
+import NewStories from '../Data/NewStories.json';
+import Header from '../shared/Header';
+import SortedNews from '../Data/SortedNews';
 const Sort = () => {
     const stories = useMemo(() => NewStories, []);
     //const [data, setData] = useState([]);

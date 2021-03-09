@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Filter from './Filter';
-import Header from './shared/Header';
+import Filter from '../Data/Filter';
+import Header from '../shared/Header';
 
 
 

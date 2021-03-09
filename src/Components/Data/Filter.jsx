@@ -1,6 +1,6 @@
 import React from 'react';
-import NewStories from './Data/NewStories.json';
-import RenderStories from './RenderStories';
+import NewStories from './NewStories.json';
+import RenderStories from '../shared/RenderStories';
 
 const Filter = (props) => {
     const keyword = props.keyword;

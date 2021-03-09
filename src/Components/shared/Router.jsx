@@ -1,10 +1,10 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Home from '../Home';
-import About from '../About';
+import Home from '../pages/Home';
+import About from '../pages/About'
 // import News from '../News';
-import LocalNews from '../LocalNews';
-import Sort from '../Sort';
+import LocalNews from '../pages/LocalNews';
+import Sort from '../pages/Sort';
 const Router = () => {
     return ( 
         <Switch>
